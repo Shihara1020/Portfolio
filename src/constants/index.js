@@ -1,0 +1,745 @@
+import { c } from "maath/dist/index-43782085.esm";
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  html,
+  css,
+  reactjs,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  travely,
+  neighbourly,
+  dicegame,
+  guessthenumber,
+  neighbourlyweb,
+  wildlife,
+  pera,
+  dharmaraja,
+  jinaraja,
+  java,
+  cpp,
+  firebase,
+  kotlin,
+  mysql,
+  netlify,
+  php,
+  python,
+  bootstrap,
+  typescript,
+  sezenta,
+  nextjs,
+  nestjs,
+  springboot,
+  angular,
+  express,
+  eventify,
+  eyezen,
+  eyezenMobile,
+  goTicket,
+  goTicketMobile,
+  learnify,
+  nasa,
+  pmPulse,
+  avonet,
+  circles,
+} from "../assets";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "works",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+  {
+    id: "about",
+    title: "CV",
+  },
+];
+
+const services = [
+  {
+    title: "Computer Engineeer",   
+    icon: backend,
+  },
+
+  {
+    title: "Computer Engineeer",
+    icon: mobile,
+  },
+  {
+    title: "Computer Engineeer",
+    icon: mobile,
+  },
+  {
+    title: "Computer Engineeer",
+    icon: creator,
+  },
+];
+
+const technologies = [
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Typescript",
+    icon: typescript,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+];
+
+const frameworks = [
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "SpringBoot",
+    icon: springboot,
+  },
+
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+];
+const hosting = [
+  {
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "Netlify",
+    icon: netlify,
+  },
+];
+
+const databases = [
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "My SQL",
+    icon: mysql,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+];
+
+const education = [
+  {
+    name: "Bachelor's degree",
+    institute: "University of peradeniya",
+    icon: pera,
+    iconBg: "#383E56",
+    year: "2021 - present",
+    description:
+      "Currently reading for my Bachelors' Degree in Computer Engineering -Current GPA 3.",
+  },
+  {
+    name: "Advanced Level",
+    institute: "Dharmaraja Collage Kandy",
+    icon: dharmaraja,
+    iconBg: "#383E56",
+    year: "2019 - 2021",
+    description:
+      "General Certificate Advanced Level get 3'As ",
+  },
+  {
+    name: "Ordinary Level",
+    institute: "Jinaraja Boys collage Gampola",
+    icon: jinaraja,
+    iconBg: "#383E56",
+    year: "2012-2019",
+    description:
+      "Passed General Certificate Ordinary Level Exam with 7 A passes",
+  },
+];
+
+const experience = [
+  {
+    name: "",
+    title: "Software",
+    icon: circles,
+    working_type: "Hybrid",
+    bg: "#383E56",
+    year: "2025 May - Present",
+    details: [],
+    techs: [
+      "SpringBoot",
+      "RabbitMQ",
+      "MySQL",
+      "GitLab",
+      "Grafana",
+      "Microservices",
+    ],
+    projects: [],
+  },
+  {
+    name: "A",
+    title: "Associate Software Engineer ",
+    icon: avonet,
+    working_type: "Hybrid",
+    bg: "#383E56",
+    year: "2024 September - 2025 May",
+    details: [
+      "worked on the Maxxlink project as a Full Stack Developer from the scratch, where I was responsible for both frontend and backend development tasks.",
+      "The project utilized a multi-tenancy architecture and was built using NestJS, Next.js, TypeORM, PostgreSQL, and Microsoft Azure",
+      "Collaborating with cross-functional teams to enhance system performance and reliability",
+      "Managing version control and CI/CD workflows with Bitbucket",
+    ],
+    techs: [
+      "React Js",
+      "Next Js",
+      "Nest Js",
+      "Tailwind CSS",
+      "AWS",
+      "Azure",
+      "BitBucket",
+      "Docker",
+      "CI/CD",
+      "PostgreSQL",
+      "Multi -  Tenancy Architecture",
+      "Material UI",
+      "Zod",
+    ],
+    projects: [],
+  },
+  {
+    name: "S",
+    title: "Associate Software Engineer ",
+    icon: sezenta,
+    working_type: "Remote",
+    bg: "#383E56",
+    year: "2024 April - 2024 September",
+    details: [
+      "Built scalable web applications using Next.js, NestJS, Angular, and Spring Boot within a microservices architecture",
+      "Integrated multiple AWS services, including Cognito and S3, for secure cloud solutions",
+      "Engineered complex algorithms, including an Australian postal fee calculator, to optimize logistics operations",
+      "Designed intuitive UI/UX features such as tree views and pagination to enhance data retrieval and user experience",
+    ],
+    techs: [
+      "React Js",
+      "Next Js",
+      "Angular",
+      "Nest Js",
+      "SpringBoot",
+      "Tailwind CSS",
+      "AWS",
+      "Github",
+      "Docker",
+      "PostgreSQL",
+      "SQL",
+      "Ant Design",
+      "Microservices",
+    ],
+    projects: [
+      "Big Value Box (BVB)",
+      "NIBM E Library",
+      "Halo Analytics Tool",
+      "Street Burger Web App",
+      "PiFi",
+    ],
+  },
+  {
+    name: "S",
+    title: "Software Engineer - Intern",
+    icon: sezenta,
+    working_type: "Remote",
+    bg: "#383E56",
+    year: "2023 September - 2024 March",
+    details: [
+      "Implemented a 3D Bin Packing Algorithm to optimize space utilization in logistics, manufacturing, and resource allocation.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design for all devices and ensuring cross-browser compatibility.",
+    ],
+    techs: [
+      "Next Js",
+      "Nest Js",
+      "Tailwind CSS",
+      "Github",
+      "PostgreSQL",
+      "Ant Design",
+      "Microservices",
+    ],
+    projects: ["Big Value Box (BVB)"],
+  },
+];
+
+const projects = [
+  {
+    name: "GP118-Line Following Robot",
+    description:
+      "An autonomous line-following robot powered by Arduino Uno, developed for the GP118 Line Following Competition, which secured 1st place against 60+ teams.",
+    tags: [
+      {
+        name: "Arunio",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "microservices",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: learnify,
+    source_code_link: "https://github.com/Shihara1020/GP118-Line-Following-Robot",
+  },
+  {
+    name: "CO224-Building Processor",
+    description:
+      "Building simple processor using veriolog",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "netlify",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NASA-Apis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: nasa,
+    source_code_link: "https://github.com/Shihara1020/CO224-Building_Processor",
+  },
+  {
+    name: "Booking WebSite",
+    description:
+      "Creat a simple hotel booking web site",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-maps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ayurveda",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eyezen,
+    source_code_link: "https://github.com/Shihara1020/BOOKING-WEB",
+  },
+  {
+    name: "CO222-Project-Milestone-2",
+    description:
+      "A C program that simulates a post office package management system using linked lists, developed for the CO223 module milestone project.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google-maps",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ayurveda",
+        color: "green-text-gradient",
+      },
+    ],
+    image: eyezenMobile,
+    source_code_link: "https://github.com/Shihara1020/CO222-Project-Milestone-2",
+  },
+  {
+    name: "GP106 - Arduino Game",
+    description:
+      "An interactive Rock-Paper-Scissors-Lizard-Spock game built with Arduino and Python, featuring both hardware controls and a graphical user interface.",
+    tags: [
+      {
+        name: "Pyhton",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "qr-scanner",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "public-transport",
+        color: "green-text-gradient",
+      },
+    ],
+    image: goTicket,
+    source_code_link: "https://github.com/Shihara1020/GP106-Arduino_Game",
+  },
+  // {
+  //   name: "Go Ticket Mobile",
+  //   description:
+  //     "Online Ticket Booking and Public Transport Management system. Using this mobile app can purchase tickets and topup the credit account",
+  //   tags: [
+  //     {
+  //       name: "react-native",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "blue-text-gradient",
+  //     },
+
+  //     {
+  //       name: "mongodb",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "qr-scanner",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "public-transport",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: goTicketMobile,
+  //   source_code_link: "https://github.com/ChillBroh/GoTicket-Mobile.git",
+  // },
+  // {
+  //   name: "Eventify",
+  //   description:
+  //     "A web application for Event Management. This app includes realtime chat featue as well",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "blue-text-gradient",
+  //     },
+
+  //     {
+  //       name: "mongodb",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "real-time-chat",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "rest-api",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: eventify,
+  //   source_code_link: "https://github.com/ChillBroh/Entertainment-WEB.git",
+  // },
+  // {
+  //   name: "Game development",
+  //   description:
+  //     "This is SLIIT 2nd year 2nd semester ITP project. Travely is a travel and tourism website with vehicle booking, hotel booking, special activity and also can book restaruants",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "blue-text-gradient",
+  //     },
+
+  //     {
+  //       name: "mongodb",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "rest-api",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: travely,
+  //   source_code_link: "https://github.com/ChillBroh/Travely.git",
+  // },
+  // {
+  //   name: "Line following Robot",
+  //   description:
+  //     "MAD project using Kotlin in Android studio (Neighbourly - App for solution ideas for Economic crisis) for SLIIT 2nd year 2nd semester project",
+  //   tags: [
+  //     {
+  //       name: "kotlin",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Android Studio",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: neighbourly,
+  //   source_code_link:
+  //     "https://github.com/ChillBroh/MAD_Project_Neighbourly.git",
+  // },
+  // {
+  //   name: "Neighbourly (Web)",
+  //   description:
+  //     "Neighbourly is a web and mobile application created to address the economic crisis, food wastage, and poverty in rural Sri Lanka. The platform facilitates the sharing of surplus food and resources between individuals, businesses, and organizations. Users can list excess food items, connect with those in need, and contribute non-food items. Neighbourly aims to foster community collaboration, reduce food wastage, and uplift rural communities through technology and shared responsibility.",
+  //   tags: [
+  //     {
+  //       name: "php",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "wordpress",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: neighbourlyweb,
+  //   source_code_link: "https://github.com/ChillBroh/Neighbourly-Website.git",
+  // },
+  // {
+  //   name: "Dice Game",
+  //   description:
+  //     "Two players can simultaneously play this game. Player 1 must initially press the button to roll the dice. If player 1 gets 1, the current player will switch to player 2, otherwise, player 1 can carry on and his score will be added to player 1's overall score. The winner of the game is the player who scores 100 points first",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: dicegame,
+  //   source_code_link: "https://github.com/ChillBroh/Roll-The-Dice-Game-.git",
+  // },
+  // {
+  //   name: "Guess The Number",
+  //   description:
+  //     "In this game a player must Enter a number between 1-20. When the player hits enter computer will generate a random number and will check with the enterend number. If both numbers are matching player wins otherwise player gets another chance.",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: guessthenumber,
+  //   source_code_link: "https://github.com/ChillBroh/Roll-The-Dice-Game-.git",
+  // },
+  // {
+  //   name: "Wild Life Trip Safari Management System ",
+  //   description:
+  //     "This is SLIIT 1st Year 2nd semester IWT project. Wildlife Quest SL Management system is one of the best and easy websites where you can plan your holiday Safari trip with many benefits under fair Packages. ",
+  //   tags: [
+  //     {
+  //       name: "php",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: wildlife,
+  //   source_code_link:
+  //     "https://github.com/ChillBroh/WILD-LIFE-TRIP-SAFARI_MANAGEMENT-SYSTEM.git",
+  // },
+];
+neighbourlyweb;
+export {
+  services,
+  technologies,
+  education,
+  projects,
+  frameworks,
+  databases,
+  hosting,
+  experience,
+};
