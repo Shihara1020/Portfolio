@@ -57,7 +57,7 @@ import eyezen from "./eyezen-web.jpeg";
 import eyezenMobile from "./eyezen-mobile.jpeg";
 import goTicket from "./go-ticket-web.jpeg";
 import goTicketMobile from "./go-ticket-mobile.jpeg";
-import learnify from "./learnify.png";
+import robot from "./robot.jpg";
 import nasa from "./nasa.png";
 import pmPulse from "./pm-pulse.jpg";
 
@@ -115,7 +115,7 @@ export {
   eyezenMobile,
   goTicket,
   goTicketMobile,
-  learnify,
+  robot,
   nasa,
   pmPulse,
   avonet,
