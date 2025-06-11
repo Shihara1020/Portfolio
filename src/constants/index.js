@@ -221,115 +221,6 @@ const education = [
   },
 ];
 
-// const experience = [
-//   {
-//     name: "",
-//     title: "Software",
-//     icon: circles,
-//     working_type: "Hybrid",
-//     bg: "#383E56",
-//     year: "2025 May - Present",
-//     details: [],
-//     techs: [
-//       "SpringBoot",
-//       "RabbitMQ",
-//       "MySQL",
-//       "GitLab",
-//       "Grafana",
-//       "Microservices",
-//     ],
-//     projects: [],
-//   },
-//   {
-//     name: "A",
-//     title: "Associate Software Engineer ",
-//     icon: avonet,
-//     working_type: "Hybrid",
-//     bg: "#383E56",
-//     year: "2024 September - 2025 May",
-//     details: [
-//       "worked on the Maxxlink project as a Full Stack Developer from the scratch, where I was responsible for both frontend and backend development tasks.",
-//       "The project utilized a multi-tenancy architecture and was built using NestJS, Next.js, TypeORM, PostgreSQL, and Microsoft Azure",
-//       "Collaborating with cross-functional teams to enhance system performance and reliability",
-//       "Managing version control and CI/CD workflows with Bitbucket",
-//     ],
-//     techs: [
-//       "React Js",
-//       "Next Js",
-//       "Nest Js",
-//       "Tailwind CSS",
-//       "AWS",
-//       "Azure",
-//       "BitBucket",
-//       "Docker",
-//       "CI/CD",
-//       "PostgreSQL",
-//       "Multi -  Tenancy Architecture",
-//       "Material UI",
-//       "Zod",
-//     ],
-//     projects: [],
-//   },
-//   {
-//     name: "S",
-//     title: "Associate Software Engineer ",
-//     icon: sezenta,
-//     working_type: "Remote",
-//     bg: "#383E56",
-//     year: "2024 April - 2024 September",
-//     details: [
-//       "Built scalable web applications using Next.js, NestJS, Angular, and Spring Boot within a microservices architecture",
-//       "Integrated multiple AWS services, including Cognito and S3, for secure cloud solutions",
-//       "Engineered complex algorithms, including an Australian postal fee calculator, to optimize logistics operations",
-//       "Designed intuitive UI/UX features such as tree views and pagination to enhance data retrieval and user experience",
-//     ],
-//     techs: [
-//       "React Js",
-//       "Next Js",
-//       "Angular",
-//       "Nest Js",
-//       "SpringBoot",
-//       "Tailwind CSS",
-//       "AWS",
-//       "Github",
-//       "Docker",
-//       "PostgreSQL",
-//       "SQL",
-//       "Ant Design",
-//       "Microservices",
-//     ],
-//     projects: [
-//       "Big Value Box (BVB)",
-//       "NIBM E Library",
-//       "Halo Analytics Tool",
-//       "Street Burger Web App",
-//       "PiFi",
-//     ],
-//   },
-//   {
-//     name: "S",
-//     title: "Software Engineer - Intern",
-//     icon: sezenta,
-//     working_type: "Remote",
-//     bg: "#383E56",
-//     year: "2023 September - 2024 March",
-//     details: [
-//       "Implemented a 3D Bin Packing Algorithm to optimize space utilization in logistics, manufacturing, and resource allocation.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design for all devices and ensuring cross-browser compatibility.",
-//     ],
-//     techs: [
-//       "Next Js",
-//       "Nest Js",
-//       "Tailwind CSS",
-//       "Github",
-//       "PostgreSQL",
-//       "Ant Design",
-//       "Microservices",
-//     ],
-//     projects: ["Big Value Box (BVB)"],
-//   },
-// ];
 
 const universityCourses = [
   {
@@ -343,8 +234,8 @@ const universityCourses = [
       { id: "EM213", name: "Probability & Statistics" },
       { id: "EM214", name: "Discrete Mathematics" },
       { id: "EM215", name: "Numerical Methods" },
-      { id: "EM502", name: "Optimization" },
-      { id: "EM527", name: "Operations Research I" },
+      // { id: "EM502", name: "Optimization" },
+      // { id: "EM527", name: "Operations Research I" },
     ]
   },
   {
@@ -354,41 +245,41 @@ const universityCourses = [
       { id: "GP118", name: "Basic Electrical & Electronic Engineering" },
       { id: "EE282", name: "Network Analysis for Computer Engineering" },
       { id: "EE285", name: "Electronic I" },
-      { id: "EE386", name: "Electronic Devices & Circuits II" },
-      { id: "EE387", name: "Signal Processing" },
+      // { id: "EE386", name: "Electronic Devices & Circuits II" },
+      // { id: "EE387", name: "Signal Processing" },
     ]
   },
   {
     category: "Computer Engineering",
     icon: "💻",
     courses: [
-      { id: "CO221", name: "Logic Network" },
+      // { id: "CO221", name: "Logic Network" },
       { id: "CO222", name: "Programming Methodology" },
       { id: "CO223", name: "Computer Communication Networks" },
       { id: "CO224", name: "Computer Architecture" },
       { id: "CO225", name: "Software Construction" },
-      { id: "CO226", name: "Software Construction" },
-      { id: "CO321", name: "Embedded System" },
-      { id: "CO322", name: "Data Structures & Algorithms" },
-      { id: "CO323", name: "Computer Communication Network II" },
-      { id: "CO324", name: "Network & Web Application Design" },
-      { id: "CO325", name: "Computer & Network Security" },
-      { id: "CO326", name: "Computer Systems Engineering" },
-      { id: "CO327", name: "Operating Systems" },
-      { id: "CO328", name: "Software Engineering" },
-      { id: "CO521", name: "Compilers" },
-      { id: "CO543", name: "Image Processing" },
-      { id: "CO542", name: "Fuzzy Logic & Neural Networks" },
-      { id: "CO544", name: "Machine Learning & Data Mining" },
+      // { id: "CO226", name: "Software Construction" },
+      // { id: "CO321", name: "Embedded System" },
+      // { id: "CO322", name: "Data Structures & Algorithms" },
+      // { id: "CO323", name: "Computer Communication Network II" },
+      // { id: "CO324", name: "Network & Web Application Design" },
+      // { id: "CO325", name: "Computer & Network Security" },
+      // { id: "CO326", name: "Computer Systems Engineering" },
+      // { id: "CO327", name: "Operating Systems" },
+      // { id: "CO328", name: "Software Engineering" },
+      // { id: "CO521", name: "Compilers" },
+      // { id: "CO543", name: "Image Processing" },
+      // { id: "CO542", name: "Fuzzy Logic & Neural Networks" },
+      // { id: "CO544", name: "Machine Learning & Data Mining" },
     ]
   },
   {
     category: "Projects & Research",
     icon: "🔬",
     courses: [
-      { id: "CO227", name: "Computer Engineering Project" },
-      { id: "CO421", name: "Final Year Project I" },
-      { id: "CO425", name: "Final Year Project II" },
+      // { id: "CO227", name: "Computer Engineering Project" },
+      // { id: "CO421", name: "Final Year Project I" },
+      // { id: "CO425", name: "Final Year Project II" },
     ]
   },
   {
@@ -409,15 +300,31 @@ const universityCourses = [
     courses: [
       { id: "GP101", name: "English I" },
       { id: "GP102", name: "English II" },
-      { id: "EF501", name: "The Engineer in Society" },
-      { id: "EF509", name: "Engineer as an Entrepreneur" },
-      { id: "EF524", name: "Business Law" },
-      { id: "EF528", name: "Introduction to Digital Art" },
+      // { id: "EF501", name: "The Engineer in Society" },
+      // { id: "EF509", name: "Engineer as an Entrepreneur" },
+      // { id: "EF524", name: "Business Law" },
+      // { id: "EF528", name: "Introduction to Digital Art" },
     ]
   }
 ];
 
-
+// Achievements data
+const achievements = [
+  {
+    title: "Professor E. F. Bartholomeusz Prize for First Year Engineering Mathematics",
+    year: "2024",
+    description: "Best student in all engineering specialties who achieved the highest average marks in the engineering mathematics modules offered throughout the year. (Out of 415 engineering students)",
+    icon: "🏆",
+    category: "Academic Excellence"
+  },
+  {
+    title: "ACES Coders v11.0 - 12 hours algorithmic programming competition",
+    year: "2024", 
+    description: "An inter-university 12-hour coding competition organized by the University of Peradeniya.",
+    icon: "💻",
+    category: "Programming Competition"
+  }
+];
 
 
 
@@ -808,12 +715,15 @@ const projects = [
 ];
 neighbourlyweb;
 export {
-  services,
+
   technologies,
   education,
   projects,
   frameworks,
   databases,
   hosting,
-  experience,
+  universityCourses,
+  achievements 
+
+  // experience,
 };
