@@ -54,11 +54,11 @@ import dharmaraja from "./dharmaraja.jpg";
 import jinaraja from "./jinarajaBoys.jpg";
 import eventify from "./eventify.jpg";
 import eyezen from "./eyezen-web.jpeg";
-import eyezenMobile from "./eyezen-mobile.jpeg";
-import goTicket from "./go-ticket-web.jpeg";
-import goTicketMobile from "./go-ticket-mobile.jpeg";
+import PostOffice from "./PostOffice.jpg";
+import Arduni_game from "./Arduni_game.jpg";
+import Arduni_gameMobile from "./go-ticket-mobile.jpeg";
 import robot from "./robot.jpg";
-import nasa from "./nasa.png";
+import processor from "./processor.png";
 import pmPulse from "./pm-pulse.jpg";
 
 export {
@@ -112,11 +112,11 @@ export {
   jinaraja,
   eventify,
   eyezen,
-  eyezenMobile,
-  goTicket,
-  goTicketMobile,
+  PostOffice,
+  Arduni_game,
+  Arduni_gameMobile,
   robot,
-  nasa,
+  processor,
   pmPulse,
   avonet,
   circles,
