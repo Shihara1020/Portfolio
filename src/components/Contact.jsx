@@ -15,6 +15,7 @@ const Contact = () => {
   const [form, setForm] = useState({
     name: "",
     email: "",
+    subject: "",
     message: "",
   });
 
@@ -62,20 +63,30 @@ const Contact = () => {
       setLoading(false);
       return;
     }
+    if (form.subject === "") {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Please add the subject ",
+      });
+      setLoading(false);
+      return;
+    }
 
-    //if !empty
     const email = await emailjs.send(
-      "service_j2kqw5v",
-      "template_kfd5lcd",
-      {
-        from_name: form.name,
-        to_name: "eranjan",
-        from_email: form.email,
-        to_email: "eranjan1020@gmail.com",
-        message: form.message,
-      },
-      "cndTcn_G7HAC5EjRG"
-    );
+    "service_t6588yb", // your service ID
+    "template_kh2irhp", // your template ID
+    {
+      user_name: form.name,
+      user_email: form.email,
+      user_subject: form.subject, // static or add subject field
+      user_message: form.message,
+      title: "Portfolio Contact",
+      name: form.name,
+      email: form.email,
+    },
+    "zkshUe3HaK3yMj48u" // your public key
+  );
     if (email) {
       try {
         setLoading(false);
@@ -88,6 +99,7 @@ const Contact = () => {
         setForm({
           name: "",
           email: "",
+          subject: "",
           message: "",
         });
       } catch (error) {
@@ -138,6 +150,17 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+            />
+          </label>
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Subject</span>
+            <input
+              type="text"
+              name="subject"
+              value={form.subject}
+              onChange={handleChange}
+              placeholder="Subject of your message"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>

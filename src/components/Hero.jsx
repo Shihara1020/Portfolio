@@ -9,7 +9,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FiTwitter } from "react-icons/fi";
 import { EarthCanvas } from "./canvas";
 import { GoCloudDownload } from "react-icons/go";
-import cvPDF from "../assets/Curriculum Vitae - Ishara Madusanka.pdf";
+import cvPDF from "../assets/cv-template.pdf";
 
 const Hero = () => {
   return (
@@ -45,16 +45,7 @@ const Hero = () => {
               <Link to={"https://www.linkedin.com/in/shihara-dewagedara-23109a275/"}>
                 <AiOutlineLinkedin className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
               </Link>
-              {/* <Link
-                to={
-                  "https://instagram.com/chill_broh_98?igshid=NTc4MTIwNjQ2YQ=="
-                }
-              >
-                <BsInstagram className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
-              </Link>
-              <Link to={"https://twitter.com/ChillBroh_98"}>
-                <FiTwitter className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20" />
-              </Link> */}
+              
             </div>
           </div>
           <a
