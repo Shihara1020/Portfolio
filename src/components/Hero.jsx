@@ -13,7 +13,7 @@ import cvPDF from "../assets/cv-template.pdf";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section id="home" className="relative w-full h-screen mx-auto">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] sm:top-[250px] max-w-7xl mx-auto flex flex-row items-start gap-5 mt-20`}
       >

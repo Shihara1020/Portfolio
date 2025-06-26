@@ -77,7 +77,6 @@ const About = () => {
        {/* Achievements Section */}
       <div className="mt-16">
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Recognition</p>
           <h2 className={styles.sectionHeadText}>Achievements.</h2>
         </motion.div>
         <motion.p
