@@ -4,9 +4,11 @@ import {
   Contact,
   Education,
   Hero,
+  UniversityCourses,
   Navbar,
   Works,
   StarsCanvas,
+  Achievements,
   Skills,
 } from "./components";
 
@@ -19,6 +21,8 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Achievements />
+        <UniversityCourses />
         <Education />
         <Skills />
         <Works />

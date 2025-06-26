@@ -1,21 +1,14 @@
-import React from "react";
-import { motion } from "framer-motion";
 import { styles } from "../styles";
-
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import { BsInstagram } from "react-icons/bs";
-import { FiTwitter } from "react-icons/fi";
-import { EarthCanvas } from "./canvas";
 import { GoCloudDownload } from "react-icons/go";
 import cvPDF from "../assets/cv-template.pdf";
-
 const Hero = () => {
   return (
     <section id="home" className="relative w-full h-screen mx-auto">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] sm:top-[250px] max-w-7xl mx-auto flex flex-row items-start gap-5 mt-20`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] sm:top-[100px] max-w-7xl mx-auto flex flex-row items-start gap-5 mt-20`}
       >
         <div className="flex flex-col justify-center items-center mt-5 ">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />

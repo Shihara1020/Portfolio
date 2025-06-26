@@ -203,7 +203,7 @@ const education = [
     iconBg: "#383E56",
     year: "2021 - present",
     description:
-      "Currently reading for my Bachelors' Degree in Computer Engineering -Current GPA 3.",
+      "Currently reading for my Bachelors' Degree in Computer Engineering",
   },
   {
     name: "Advanced Level",
