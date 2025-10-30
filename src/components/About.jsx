@@ -48,7 +48,7 @@ const About = () => {
             </div>
           </div>
           <div className="stat-info text-center">
-            <h3 className="text-white text-4xl font-bold mb-2">3.76</h3>
+            <h3 className="text-white text-4xl font-bold mb-2">3.93</h3>
             <p className="text-secondary uppercase text-sm tracking-wider">CGPA</p>
           </div>
         </motion.div>
